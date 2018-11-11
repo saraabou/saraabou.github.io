@@ -40,11 +40,11 @@ color : blue;
      </ol>
 
    <h2 id="h2">CHI INTERROGHIAMO OGGI? </h2>
-     <button onclick="alunni()"> interroga </button>
+<input type =" button" value="interrogga" onClick ="alunni()"/>
   <script>
    function alunni() {
 var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Hassan", "Alberto Hallac", " Laura Katri", " Limor kohanim","Andre Liuim","Raphael Loloey","Jonathan Rimini","Jordan Sassoon","Tommaso Sazbon","Dalia Somekh","Joshua Turiel","Yoel Zelnick"]
-    var x = Math.floor(Math.random()* studenti.length);
+    var x = Math.floor(Math.random()* 15);
   document.getElementbyId("h2").innerHTML=studenti[x];
     
   }
