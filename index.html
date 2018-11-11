@@ -27,8 +27,8 @@ background-color : yellow;
    
   function alunni() {
 
-    var x = Math.floor(Math.random()*15);
-  document.getElementbyId("risult").innerHTML=(studenti[x]);
+    var x = Math.floor(Math.random()* studenti.length);
+  document.getElementbyId("risult").innerHTML=studenti[x];
     
   }
       </script>
