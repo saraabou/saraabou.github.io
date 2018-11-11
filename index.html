@@ -2,15 +2,6 @@
 <head>
   
  <body>
-   <input type= "button" value= " interroga" onClick = "alunni()"/>
-  <script>
-  function alunni() {
-    var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Hassan", "Alberto Hallac", " Laura Katri", " Limor kohanim","Andre Liuim","Raphael Loloey","Jonathan Rimini","Jordan Sassoon","Tommaso Sazbon","Dalia Somekh","Joshua Turiel","Yoel Zelnick"]
-    var x = Math.floor(Math.random()*15);
-  document.write(studenti[x]);
-    
-  }
-    </script>
    
    <style> 
 h1{
@@ -30,6 +21,15 @@ color : yellow;
 <br>  <h1 id ="titolo"> <strong> INTERROGAZIONE </strong> </h1> 
   <img src= "images.jpg" alt="student picture" />
   <h2> CHI INTERROGHIAMO OGGI?! </h2>
+     <input type= "button" value= " interroga" onClick = "alunni()"/>
+  <script>
+  function alunni() {
+    var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Hassan", "Alberto Hallac", " Laura Katri", " Limor kohanim","Andre Liuim","Raphael Loloey","Jonathan Rimini","Jordan Sassoon","Tommaso Sazbon","Dalia Somekh","Joshua Turiel","Yoel Zelnick"]
+    var x = Math.floor(Math.random()*15);
+  document.write(studenti[x]);
+    
+  }
+      </script>
    <p> <strong> <em> LISTA INTERROGATI</em> </strong> </p>
    <p id =" classe"> IV SCIENTIFICO </p>
    <ol>
