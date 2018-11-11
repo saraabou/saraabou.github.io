@@ -23,12 +23,12 @@ background-color : yellow;
    <h2 id="risult">CHI INTERROGHIAMO OGGI? </h2>
      <button onclick="alunni()"> interroga </button>
   <script>
-    var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Hassan", "Alberto Hallac", " Laura Katri", " Limor kohanim","Andre Liuim","Raphael Loloey","Jonathan Rimini","Jordan Sassoon","Tommaso Sazbon","Dalia Somekh","Joshua Turiel","Yoel Zelnick"]
+    var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Hassan", "Alberto Hallac", " Laura Katri", " Limor kohanim","Andre Liuim","Raphael Loloey","Jonathan Rimini","Jordan Sassoon","Tommaso Sazbon","Dalia Somekh","Joshua Turiel","Yoel Zelnick"];
 
   function alunni() {
 
     var x = Math.floor(Math.random()* studenti.length);
-  document.write=studenti[x];
+  document.getElementbyId("risult").innerHTML=studenti[x];
     
   }
       </script>
