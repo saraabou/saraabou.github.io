@@ -23,9 +23,11 @@ background-color : yellow;
      <button onclick="alunni()"> interroga </button>
    <h3 id="risult"> </h3>
   <script>
+    var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Hassan", "Alberto Hallac", " Laura Katri", " Limor kohanim","Andre Liuim","Raphael Loloey","Jonathan Rimini","Jordan Sassoon","Tommaso Sazbon","Dalia Somekh","Joshua Turiel","Yoel Zelnick"];
+   
   function alunni() {
-    var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Hassan", "Alberto Hallac", " Laura Katri", " Limor kohanim","Andre Liuim","Raphael Loloey","Jonathan Rimini","Jordan Sassoon","Tommaso Sazbon","Dalia Somekh","Joshua Turiel","Yoel Zelnick"]
-    var x = Math.floor(Math.random()*15);
+
+    var x = Math.floor(Math.random()*studenti.length);
   document.getElementbyId("risult").innerHTML=(studenti[x]);
     
   }
