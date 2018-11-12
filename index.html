@@ -32,25 +32,27 @@ var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Has
     var x = Math.floor(Math.random()* 15);
  document.getElementById("nome").innerHTML=studenti[x];
    if ( document.getElementById("nome").innerHTML== studenti [0]){
-     document.getElementById("sara").style.display="block";
        document.getElementById("laura").style.display="none";
       document.getElementById("limor").style.display="none";
+       document.getElementById("sara").style.display="block";
      } 
-       if ( document.getElementById("nome").innerHTML== studenti [5]){
-     document.getElementById("laura").style.display="block";
+       if ( document.getElementById("nome").innerHTML== studenti [5])
           document.getElementById("sara").style.display="none";
           document.getElementById("limor").style.display="none";
+           document.getElementById("laura").style.display="block";
      } 
        if ( document.getElementById("nome").innerHTML== studenti [6]){
-     document.getElementById("limor").style.display="block";
+          
           document.getElementById("sara").style.display="none";
            document.getElementById("laura").style.display="none";
+          document.getElementById("limor").style.display="block";
      } 
        if ( document.getElementById("nome").innerHTML== studenti [12]){
-     document.getElementById("dalia").style.display="block";
+
            document.getElementById("sara").style.display="none";
            document.getElementById("laura").style.display="none";
           document.getElementById("limor").style.display="none";
+               document.getElementById("dalia").style.display="block";
      } 
     
   }
