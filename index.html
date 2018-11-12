@@ -22,14 +22,14 @@ background-color : yellow;
     <h2>CHI INTERROGHIAMO OGGI?</h2>
    <h3 id="nome"> </h3>
 <button onClick ="alunni()"/> INTERROGA </button>
- <img id="sara" src= "12063691_1698340377054569_9049169625870249096_n.jpg" style="display:block" />
+ <img id="sara" src= "12063691_1698340377054569_9049169625870249096_n.jpg" style="display:none" />
   <script>
    function alunni() {
 var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Hassan", "Alberto Hallac", " Laura Katri", " Limor kohanim","Andre Liuim","Raphael Loloey","Jonathan Rimini","Jordan Sassoon","Tommaso Sazbon","Dalia Somekh","Joshua Turiel","Yoel Zelnick"]
     var x = Math.floor(Math.random()* 15);
  document.getElementById("nome").innerHTML=studenti[x];
    if (x == studenti [1]){
-     document.getElementById("sara").style.display="none"
+     document.getElementById("sara").style.display="block"
      } 
   }
  
