@@ -25,7 +25,7 @@ background-color : yellow;
  <img id="sara" src= "12063691_1698340377054569_9049169625870249096_n.jpg" style="display:none" />
 <img id="laura" src= "16508549_1035772049862024_6259557395507315036_n.jpg" style="display:none" />
 <img id="limor" src= "14107694_1108206619262959_1665485576399864821_o.jpg" style="display:none" />
-<img id="dalia" src= "12063691_1698340377054569_9049169625870249096_n.jpg" style="display:none" />
+<img id="dalia" src= "11178327_326165567593257_5870269683900228909_n.jpg" style="display:none" />
   <script>
    function alunni() {
 var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Hassan", "Alberto Hallac", " Laura Katri", " Limor kohanim","Andre Liuim","Raphael Loloey","Jonathan Rimini","Jordan Sassoon","Tommaso Sazbon","Dalia Somekh","Joshua Turiel","Yoel Zelnick"]
@@ -34,20 +34,29 @@ var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Has
    if ( document.getElementById("nome").innerHTML== studenti [0]){
        document.getElementById("laura").style.display="none";
       document.getElementById("limor").style.display="none";
+      document.getElementById("dalia").style.display="none";
        document.getElementById("sara").style.display="block";
      } 
        if ( document.getElementById("nome").innerHTML== studenti [5]){
           document.getElementById("sara").style.display="none";
           document.getElementById("limor").style.display="none";
+          document.getElementById("dalia").style.display="none";
            document.getElementById("laura").style.display="block";
      } 
        if ( document.getElementById("nome").innerHTML== studenti [6]){
           
           document.getElementById("sara").style.display="none";
            document.getElementById("laura").style.display="none";
+          document.getElementById("dalia").style.display="none";
           document.getElementById("limor").style.display="block";
      } 
-    
+      if ( document.getElementById("nome").innerHTML== studenti [6]){
+          
+          document.getElementById("sara").style.display="none";
+           document.getElementById("laura").style.display="none";
+          document.getElementById("limor").style.display="none";
+         document.getElementById("dalia").style.display="block";
+     } 
     
   }
  
