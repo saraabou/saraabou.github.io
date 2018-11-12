@@ -23,14 +23,27 @@ background-color : yellow;
    <h3 id="nome"> </h3>
 <button onClick ="alunni()"/> INTERROGA </button>
  <img id="sara" src= "12063691_1698340377054569_9049169625870249096_n.jpg" style="display:none" />
+<img id="laura" src= "12063691_1698340377054569_9049169625870249096_n.jpg" style="display:none" />
+<img id="limor" src= "12063691_1698340377054569_9049169625870249096_n.jpg" style="display:none" />
+<img id="dalia" src= "12063691_1698340377054569_9049169625870249096_n.jpg" style="display:none" />
   <script>
    function alunni() {
 var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Hassan", "Alberto Hallac", " Laura Katri", " Limor kohanim","Andre Liuim","Raphael Loloey","Jonathan Rimini","Jordan Sassoon","Tommaso Sazbon","Dalia Somekh","Joshua Turiel","Yoel Zelnick"]
     var x = Math.floor(Math.random()* 15);
  document.getElementById("nome").innerHTML=studenti[x];
-   if ( document.getElementById("nome").innerHTML== studenti [1]){
+   if ( document.getElementById("nome").innerHTML== studenti [0]){
      document.getElementById("sara").style.display="block";
      } 
+       if ( document.getElementById("nome").innerHTML== studenti [5]){
+     document.getElementById("laura").style.display="block";
+     } 
+       if ( document.getElementById("nome").innerHTML== studenti [6]){
+     document.getElementById("limor").style.display="block";
+     } 
+       if ( document.getElementById("nome").innerHTML== studenti [12]){
+     document.getElementById("dalia").style.display="block";
+     } 
+    
   }
  
       </script>
