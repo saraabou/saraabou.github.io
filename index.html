@@ -49,7 +49,7 @@ var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Has
           
      }      
      
-       And if ( document.getElementById("nome").innerHTML== studenti [6]){
+     if ( document.getElementById("nome").innerHTML== studenti [6]){
           
           document.getElementById("sara").style.display="none";
            document.getElementById("laura").style.display="none";
@@ -57,8 +57,16 @@ var studenti = ["Sara Abou Hamrah", "Daniel Bueno","Beniamino Foà", "Davide Has
            document.getElementById("maschi").style.display="none";
           document.getElementById("limor").style.display="block";
      }
+          else {
+          
+          document.getElementById("sara").style.display="none";
+           document.getElementById("laura").style.display="none";
+          document.getElementById("limor").style.display="none";
+         document.getElementById("dalia").style.display="none";
+             document.getElementById("maschi").style.display="none";
+     } 
     
-      And if ( document.getElementById("nome").innerHTML== studenti [12]){
+    if ( document.getElementById("nome").innerHTML== studenti [12]){
           
           document.getElementById("sara").style.display="none";
            document.getElementById("laura").style.display="none";
