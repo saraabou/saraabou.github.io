@@ -2,31 +2,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-
-
-
 </head>
 
 
 <body>
-<h1> Quanto sei bravo in informatica</h1>
+	<h1> Testa il tuo livello di informatica! </h1>
+<form id = "quiz" name= "quiz">
+<p>  What does HTML stand for? </p>
+<input id ="textbox" type="text" name="question1">
 
+<p> 2. What is the correct HTML element for inserting a line break? </p>
+<input type = "radio" id ="mc" name="question2" value="break" > break <br>
+<input type = "radio" id ="mc" name="question2" value="br" > br <br>
 
-<form id = "quiz" name = "quiz">
-
-
-<p class = "questions"> 1. What does HTML stand for? </p>
-<input id = "textbox" type = "text" name = "question1">
-
-<p class = "questions">What is the capital of Connecticut?</p>
-<input type = "radio" id = "mc" name = "question2" value = "Hartford"> Hartford<br>
-<input type = "radio" id = "mc" name = "question2" value = "Heartford"> Heartford<br>
-
-<p class = "questions">What is the capital of New York?</p>
-
-<input type = "radio" id = "mc" name = "question3" value = "Albany"> Albany<br>
-<input type = "radio" id = "mc" name = "question3" value = "All Benny's"> All Benny's<br>
+<p> 3. Choose the correct HTML element to define important text </p>
+<input type = "radio" id ="mc" name="question3" value="important" > important <br>
+<input type = "radio" id ="mc" name="question3" value="strong" > strong <br> <br>
 
 
 <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
@@ -49,13 +40,13 @@ function check(){
 	var correct = 0;
 
 
-	if (question1 == "Providence") {
+	if (question1 == "Hyper Text Markup Language") {
 		correct++;
 }
-	if (question2 == "Hartford") {
+	if (question2 == "br") {
 		correct++;
 }	
-	if (question3 == "Albany") {
+	if (question3 == "strong") {
 		correct++;
 	}
 	
